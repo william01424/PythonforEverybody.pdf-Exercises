@@ -1,5 +1,5 @@
-x = int(input("Enter your hours worked:\n"))
-y = int(input("Enter your hourly rate:\n"))
+x = float(input("Enter your hours worked:\n"))
+y = float(input("Enter your hourly rate:\n"))
 
 if x > 40:
     high_rate_hours = float(x - 40)
