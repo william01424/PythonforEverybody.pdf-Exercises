@@ -1,6 +1,7 @@
 # PythonLearn.pdf
 
 # Chapter 2 Exercises
+# Exercises include practise for inputs, ints vs floats, basic prints, formatting and basic program construction
 
 # 2
 name = input("Enter your name\n")
