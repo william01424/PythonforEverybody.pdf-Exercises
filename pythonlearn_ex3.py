@@ -1,3 +1,4 @@
+# 1
 x = float(input("Enter your hours worked:\n"))
 y = float(input("Enter your hourly rate:\n"))
 
@@ -11,7 +12,7 @@ else:
     print("Your total pay earned is: £", "{:.2f}".format(base_rate_pay))
 
 
-# Adding in error message using try / except
+# 2 - Adding in error message using try / except
 
 try:
     x = float(input("Enter your hours worked:\n"))
@@ -28,3 +29,25 @@ except ValueError:
         x <= 40
         base_rate_pay = float(x * y)
         print("Your total pay earned is: £", "{:.2f}".format(base_rate_pay))
+        
+# 3
+
+try:
+    score = float(input("Enter your score between 0.0 and 1.0\n"))
+    if score <= 0.0 or score >= 1.0:
+        raise ValueError
+except ValueError:
+    print("Bad Score")
+    quit()
+
+if score >= 0.9:
+    print("A")
+elif score >= 0.8:
+    print("B")
+elif score >= 0.7:
+    print("C")
+elif score >= 0.6:
+    print("D")
+else:
+    score < 0.6
+    print("F")
