@@ -44,3 +44,19 @@ print(random.randint(5,10))
 t = [1,2,3]
 print(random.choice(t))
 print(random.choice(t))
+
+# Adding new functions into Python
+
+# def is the keyword that indicates that this is a function definition.
+# parentheses indicate that this particular function doesn't take inputs
+
+def print_song():
+    print("I'm burning baby, im burning up!")
+    print("Im burning alive and yet I still love you.")
+print_song()
+
+
+def repeat_song():
+    print_song()
+    print_song()
+repeat_song()
