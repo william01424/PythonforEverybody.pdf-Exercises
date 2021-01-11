@@ -55,8 +55,12 @@ def print_song():
     print("Im burning alive and yet I still love you.")
 print_song()
 
-
 def repeat_song():
     print_song()
     print_song()
 repeat_song()
+
+def repeat_major():
+    repeat_song()
+    repeat_song()
+repeat_major()
